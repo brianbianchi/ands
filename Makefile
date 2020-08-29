@@ -1,4 +1,4 @@
-LIBS=src/mergesort src/quicksort
+LIBS=src/bubblesort src/helper src/mergesort src/quicksort
 INCLUDE_PATH=src/
 
 main_exec: libraries

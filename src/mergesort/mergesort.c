@@ -62,7 +62,7 @@ void merge(int arr[], int l, int m, int r) {
  * 2. Repeatedly merge sublists to produce new sorted sublists until there is
  * only one sublist remaining.
  *
- * Out of place sort as it requires extra memory space.
+ * Out of place sort as sorting requires extra memory space.
  * Time complexity: O(n*log n)
  *
  * @param arr Array of integers to be sorted.

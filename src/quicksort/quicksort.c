@@ -1,20 +1,9 @@
+#include "../helper/helper.h"
 #include <stdio.h>
 
 /*
- * Swaps two elements in place.
- * 
- * @param a Pointer to the first integer to be swapped.
- * @param b Pointer to the second integer to be swapped.
- */
-void swap(int *a, int *b) {
-  int t = *a;
-  *a = *b;
-  *b = t;
-}
-
-/*
  * Pivots on the last element of the array,
- * and places the pivot element at its correct position in sorted array 
+ * and places the pivot element at its correct position in sorted array
  *
  * @param arr Array to be sorted.
  * @param l Left-most index of the array.
@@ -46,8 +35,9 @@ int partition(int arr[], int l, int r) {
  * smaller values and separately to the sub-array of elements with greater
  * values.
  *
- * In place sort as elements are about the pivot without requiring a separate
- * array. Time complexity: O(n*log n)
+ * In place sort as elements are moved about the pivot without requiring a
+ * separate array. 
+ * Time complexity: O(n*log n)
  *
  * @param arr Array to be sorted.
  * @param l Left-most index of the array.
